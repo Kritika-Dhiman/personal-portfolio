@@ -746,3 +746,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     font-size: 14px;
   }
 }
+
+
+.achievement-list li {
+  padding: 16px 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #fff;
+  position: relative;
+}
+
+.achievement-divider {
+  border: none;
+  border-top: 1.5px solid #ddd;
+  margin-top: 12px;
+  width: 60%;
+  margin-left: 0; /* aligns to start */
+}
+.achievement-list li:last-child {
+  border-bottom: none; /* no line after last achievement */
+}
+.achievement-bx li {
+  animation: fadeInUp 0.5s ease-in-out forwards;
+  opacity: 0;
+}
+
+.achievement-bx li:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.achievement-bx li:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.achievement-bx li:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

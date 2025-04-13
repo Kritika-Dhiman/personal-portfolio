@@ -5,7 +5,6 @@ export const Achievements = () => {
     "Top 5 Finalist – Smart Delhi Ideathon 2025 | Top 0.5% among 1000+ teams.",
     "LinkedIn CoachIn 2025 - Selected among top 80 from 18,000+ applicants.",
     "Won Best Women Team at NinjaSprint Ideathon by Coding Ninjas",
-    
   ];
 
   return (
@@ -18,7 +17,12 @@ export const Achievements = () => {
               <br />
               <ul className="achievement-list">
                 {achievements.map((item, index) => (
-                  <li key={index}>{item}</li>
+                  <li key={index}>
+                    {item}
+                    {index !== achievements.length && (
+                      <hr className="achievement-divider" />
+                    )}
+                  </li>
                 ))}
               </ul>
             </div>
