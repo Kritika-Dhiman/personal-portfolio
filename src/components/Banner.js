@@ -11,7 +11,7 @@ export const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = [ "Web Developer", "Python Developer", "AI/ML Developer" ];
+  const toRotate = [ "Full Stack Developer" ];
   const period = 2000;
 
   useEffect(() => {
@@ -56,8 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Kritika Dhiman, `} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Python Developer", "AI/ML Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I am currently pursuing B.Tech in ECE with a specialization in AI and ML from NSUT. <br/> I am a Web and Python Developer with a strong foundation in data structures and algorithms, and a growing interest in artificial intelligence and machine learning. I’m passionate about building scalable, user-centric web applications and continuously strive to expand my technical expertise. I believe in writing clean, efficient code and delivering impactful digital solutions.</p>
+                <h1>{`Hi! I'm Kritika Dhiman, `} <br/> <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Full Stack Developer" ]'><span className="wrap">{text}</span></span></h1>
+                  <p>I am currently pursuing B.Tech in ECE with a specialization in AI and ML from NSUT. <br/> I am a Full Stack Developer with a strong foundation in data structures and algorithms, and a growing interest in artificial intelligence and machine learning. I’m passionate about building scalable, user-centric web applications and continuously strive to expand my technical expertise. I believe in writing clean, efficient code and delivering impactful digital solutions.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>

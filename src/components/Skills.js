@@ -43,7 +43,7 @@ export const Skills = () => {
                 className="owl-carousel owl-theme skill-slider"
               >
                 <div className="item">
-                  <h5>Web Development</h5>
+                  <h5>Full Stack Development</h5>
                 </div>
                 <div className="item">
                   <h5>HTML</h5>
@@ -73,14 +73,12 @@ export const Skills = () => {
                   <h5>API Integration</h5>
                 </div>
                 <div className="item">
-                  <h5>AWS</h5>
+                  <h5>Express</h5>
                 </div>
                 <div className="item">
-                  <h5>Docker</h5>
+                  <h5>MoongoDB Atlas</h5>
                 </div>
-                <div className="item">
-                  <h5>Kubernetes</h5>
-                </div>
+                
                 <div className="item">
                   <h5>Version Control (Git and GitHub)</h5>
                 </div>

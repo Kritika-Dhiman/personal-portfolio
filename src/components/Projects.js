@@ -1,5 +1,6 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import projImg0 from "../assets/img/project-img0.png"
 import projImg1 from "../assets/img/evconnect.png";
 import projImg2 from "../assets/img/TextEd.jpg";
 import projImg3 from "../assets/img/Vibify.jpg";
@@ -14,8 +15,20 @@ export const Projects = () => {
 
   const projects = [
     {
+      title: "Roadmap Builder and Peer Pod Matcher",
+      description: "GenAI platform for personalized, prompt-refinable roadmaps and peer/mentor matching.(https://brainybinaries-8kh1.onrender.com/)",
+      imgUrl: projImg0,
+      link:"https://github.com/Tanisha-Puri/BrainyBinaries",
+    },
+    {
+      title: "Athlete API",
+      description: "Athlete API uses AI to predict weight, health, and experience, powered by Flask and deployed on Render.",
+      imgUrl: projImg5,
+      link:"https://github.com/Kritika-Dhiman/athlete-api",
+    },
+    {
       title: "EV Connect",
-      description: "Powering sustainable travel with smart, seamless EV charging solutions.",
+      description: "Powering sustainable travel with smart, seamless EV charging solutions.(https://ev-connect.vercel.app/)",
       imgUrl: projImg1,
       link:"https://github.com/Kritika-Dhiman/EVConnect",
     },
@@ -37,12 +50,7 @@ export const Projects = () => {
       imgUrl: projImg4,
       link: "https://github.com/Kritika-Dhiman/BlinkMail",
     },
-    {
-      title: "Athlete API",
-      description: "Athlete API uses AI to predict weight, health, and experience, powered by Flask and deployed on Render.",
-      imgUrl: projImg5,
-      link:"https://github.com/Kritika-Dhiman/athlete-api",
-    },
+    
     {
       title: "CozeFit",
       description: "CozeFit blends style and function to elevate modern living spaces.",
