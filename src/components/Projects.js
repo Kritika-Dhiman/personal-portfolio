@@ -7,6 +7,7 @@ import projImg3 from "../assets/img/Vibify.jpg";
 import projImg4 from "../assets/img/blinkmail.jpg";
 import projImg5 from "../assets/img/athleteapi.jpg";
 import projImg6 from "../assets/img/cozefit.png";
+import projImg7 from "../assets/img/snr.png"
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -56,6 +57,12 @@ export const Projects = () => {
       description: "CozeFit blends style and function to elevate modern living spaces.",
       imgUrl: projImg6,
       link:"https://github.com/Kritika-Dhiman/cozeFit-Furniture_website",
+    },
+    {
+      title: "Smart SNR Estimation using Regression",
+      description: "Built a regression model in MATLAB to estimate SNR from BPSK signals using signal processing and ML techniques.",
+      imgUrl: projImg7,
+      link:"https://drive.google.com/file/d/1DvIh6wUyOi0fMLWhw5lZD_iTM25C5zwh/view?usp=sharing",
     },
   ];
 
