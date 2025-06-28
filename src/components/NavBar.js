@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 
 import navIcon1 from '../assets/img/nav-icon1.svg';
+import github from "../assets/img/25231.png";
 
 import { HashLink } from 'react-router-hash-link';
 import {
@@ -52,6 +53,10 @@ export const NavBar = () => {
             <span className="navbar-text">
               <div className="social-icon">
                 <a href="https://www.linkedin.com/in/kritika-dhiman-a23104290/"><img src={navIcon1} alt="" /></a>
+                
+              </div>
+              <div className="social-icon">
+                <a href="https://github.com/Kritika-Dhiman"><img src={github} alt="" /></a>
                 
               </div>
               
